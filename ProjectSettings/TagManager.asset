@@ -9,6 +9,7 @@ TagManager:
   - OxyRes
   - GameOver
   - SafeZone
+  - BaseDoor
   layers:
   - Default
   - TransparentFX
