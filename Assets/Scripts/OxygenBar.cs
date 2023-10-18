@@ -24,6 +24,7 @@ public class OxygenBar : MonoBehaviour
     public GameObject DoomPanel;
     public GameObject OxyDeathPanel;
     public bool HelmetWorn = false;
+    public bool InSafeZone;
 
 
     void Start()
@@ -134,15 +135,17 @@ public class OxygenBar : MonoBehaviour
     }
 
     public void animateHelmetON(){
-        if(playerYPosition >= oxyDepletionHeight && !HelmetWorn)
+        if(playerYPosition >= oxyDepletionHeight && !HelmetWorn && !InSafeZone)
         {
              HelmetAnim.SetTrigger("Worn");
              HelmetWorn = true;
         }
+
+        
     }
 
     public void animateHelmetOFF(){
-        if(playerYPosition < oxyDepletionHeight && HelmetWorn)
+        if(playerYPosition < oxyDepletionHeight && HelmetWorn && InSafeZone)
         {
             HelmetAnim.SetTrigger("Not Worn");
             HelmetWorn = false;
@@ -156,5 +159,8 @@ public class OxygenBar : MonoBehaviour
 
 
     }
+
+
+
 
 }

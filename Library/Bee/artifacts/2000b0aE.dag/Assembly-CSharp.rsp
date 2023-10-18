@@ -341,6 +341,7 @@
 "Assets/Scripts/OxygenPoint.cs"
 "Assets/Scripts/ParkourSlide.cs"
 "Assets/Scripts/PlanetScript.cs"
+"Assets/Scripts/PlayerController.cs"
 "Assets/SpaceSkies Free/Demo/Scripts/LookCamera.cs"
 "Assets/SpaceSkies Free/Demo/Scripts/SkyboxChanger.cs"
 -langversion:9.0

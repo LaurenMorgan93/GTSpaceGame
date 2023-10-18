@@ -8,6 +8,7 @@ TagManager:
   - Planet
   - OxyRes
   - GameOver
+  - SafeZone
   layers:
   - Default
   - TransparentFX
