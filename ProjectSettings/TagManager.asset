@@ -8,6 +8,8 @@ TagManager:
   - Planet
   - OxyRes
   - GameOver
+  - SafeZone
+  - BaseDoor
   layers:
   - Default
   - TransparentFX
