@@ -11,6 +11,7 @@ TagManager:
   - SafeZone
   - BaseDoor
   - Collectable
+  - Mine
   layers:
   - Default
   - TransparentFX

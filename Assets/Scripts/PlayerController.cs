@@ -55,5 +55,11 @@ public class PlayerController : MonoBehaviour
             Destroy(other.gameObject);
         }
 
+        if(other.gameObject.tag == ("Mine"))
+        {
+            oxygenManagementScript.MineOxygenDecrease(50);
+            Destroy(other.gameObject);
+        }
+
     }
 }
