@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class OxygenPoint : MonoBehaviour
 {
+
+    public AudioManager audioScript;
+
     private void OnTriggerStay(Collider other)
     {
         if (other.CompareTag("Player"))
@@ -16,5 +19,27 @@ public class OxygenPoint : MonoBehaviour
                 oxygenBar.RestoreOxyAtCheckpoint();
             }
         }
+    }
+
+     private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            // Store the player's position in PlayerPrefs
+            PlayerPrefs.SetFloat("PlayerPosX", other.transform.position.x);
+            PlayerPrefs.SetFloat("PlayerPosY", other.transform.position.y);
+            PlayerPrefs.SetFloat("PlayerPosZ", other.transform.position.z);
+            PlayOxyUPSound();
+
+
+
+        }
+    }
+
+
+    public void PlayOxyUPSound()
+    {
+        audioScript.PlayAudioClip("Oxy");
+
     }
 }
