@@ -1068,8 +1068,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 91.25}
-  m_SizeDelta: {x: 1820, y: 182.5}
+  m_AnchoredPosition: {x: 0, y: 131.38}
+  m_SizeDelta: {x: 1820, y: 102.26}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1050469692
 MonoBehaviour:
@@ -1271,7 +1271,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -32}
+  m_AnchoredPosition: {x: 0, y: -0}
   m_SizeDelta: {x: 1820, y: 182.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1087940676
@@ -1297,7 +1297,10 @@ MonoBehaviour:
   m_text: 'Space to Jump
 
 
-    Mouse to Look around'
+    Mouse to Look around
+
+
+    WASD to Move'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bd945189a5f144ed591662de78dd5e3d, type: 2}
   m_sharedMaterial: {fileID: -93843599689325472, guid: bd945189a5f144ed591662de78dd5e3d, type: 2}

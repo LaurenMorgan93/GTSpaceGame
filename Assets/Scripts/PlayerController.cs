@@ -6,6 +6,7 @@ using TMPro;
 public class PlayerController : MonoBehaviour
 {
     public OxygenBar oxygenManagementScript;
+    public AudioManager audioScript;
     public GameObject Collectable1;
     public GameObject Collectable2;
     public GameObject Collectable3;
@@ -58,6 +59,7 @@ public class PlayerController : MonoBehaviour
         if(other.gameObject.tag == ("Mine"))
         {
             oxygenManagementScript.MineOxygenDecrease(50);
+            audioScript.PlayAudioClip("Explode");
             Destroy(other.gameObject);
         }
 
