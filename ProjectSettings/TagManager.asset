@@ -10,6 +10,8 @@ TagManager:
   - GameOver
   - SafeZone
   - BaseDoor
+  - Collectable
+  - Mine
   layers:
   - Default
   - TransparentFX
