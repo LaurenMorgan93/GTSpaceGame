@@ -51,6 +51,7 @@ public class PlayerController : MonoBehaviour
             Debug.Log("Picked up " + other.gameObject.name);
             if(other.gameObject.name == "chip")
             {
+                audioScript.PlayAudioClip("Collect");
                 Collectable1.SetActive(false);
             }
             Destroy(other.gameObject);
