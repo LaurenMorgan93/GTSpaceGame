@@ -31258,7 +31258,7 @@ PrefabInstance:
       objectReference: {fileID: 887015607}
     - target: {fileID: 1277174703, guid: 75179771ee5b94ea684d6dbeaf7dab97, type: 3}
       propertyPath: m_VersionIndex
-      value: 638
+      value: 641
       objectReference: {fileID: 0}
     - target: {fileID: 1215869114300750341, guid: 75179771ee5b94ea684d6dbeaf7dab97, type: 3}
       propertyPath: m_RootOrder
@@ -82606,8 +82606,12 @@ PrefabInstance:
       objectReference: {fileID: 1623043531}
     - target: {fileID: 1277174703, guid: 75179771ee5b94ea684d6dbeaf7dab97, type: 3}
       propertyPath: m_VersionIndex
-      value: 635
+      value: 638
       objectReference: {fileID: 0}
+    - target: {fileID: 1508689075, guid: 75179771ee5b94ea684d6dbeaf7dab97, type: 3}
+      propertyPath: audioScript
+      value: 
+      objectReference: {fileID: 1457062784}
     - target: {fileID: 1215869114300750341, guid: 75179771ee5b94ea684d6dbeaf7dab97, type: 3}
       propertyPath: m_RootOrder
       value: 7
