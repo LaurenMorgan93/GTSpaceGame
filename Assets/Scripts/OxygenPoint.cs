@@ -26,9 +26,9 @@ public class OxygenPoint : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             // Store the player's position in PlayerPrefs
-            PlayerPrefs.SetFloat("PlayerPosX", other.transform.position.x);
-            PlayerPrefs.SetFloat("PlayerPosY", other.transform.position.y);
-            PlayerPrefs.SetFloat("PlayerPosZ", other.transform.position.z);
+            //PlayerPrefs.SetFloat("PlayerPosX", other.transform.position.x);
+            //PlayerPrefs.SetFloat("PlayerPosY", other.transform.position.y);
+            //PlayerPrefs.SetFloat("PlayerPosZ", other.transform.position.z);
             PlayOxyUPSound();
 
 
